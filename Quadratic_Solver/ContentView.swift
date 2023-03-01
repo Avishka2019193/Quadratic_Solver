@@ -29,17 +29,17 @@ struct ContentView: View {
                 Text(Image(systemName: "a.circle.fill"))+Text("Enter the first term")
                 TextField("", text: $aValue).textFieldStyle(.roundedBorder)
                     .border(Color.black)
-                    .frame(width:300,height: nil)
+                    .frame(width:350,height: nil)
                 
                 Text(Image(systemName: "b.circle.fill"))+Text("Enter the first term")
                 TextField("", text: $bValue).textFieldStyle(.roundedBorder)
                     .border(Color.black)
-                    .frame(width:300,height: nil)
+                    .frame(width:350,height: nil)
                 
                 
                 Text(Image(systemName: "c.circle.fill"))+Text("Enter the first term")
                 TextField("", text: $cValue).textFieldStyle(.roundedBorder).border(Color.black)
-                .frame(width:300,height: nil)
+                .frame(width:350,height: nil)
                 
             }
                 VStack(spacing:20){
